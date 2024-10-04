@@ -11,8 +11,6 @@ const formInput = document.querySelector(".form-input")
 
 
 
-
-
 form.addEventListener("submit", (e) => {
 
     e.preventDefault();
@@ -25,11 +23,9 @@ form.addEventListener("submit", (e) => {
           })
     } else {
         const inputText = formInput.value
-        console.log(inputText)
-        imageFetcher.getImages(inputText)
+        imageFetcher.handleImages(inputText)
     }
     
     form.reset()
 })
-
 

@@ -44,3 +44,4 @@ function render(data) {
     loader.classList.remove("visible");
     lightbox.refresh();
 }
+
